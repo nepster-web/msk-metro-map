@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+.wcommons.special_state  #metrodata, .wcommons.special_state .ext a.show_multilist	 { display:none}
+
+#old_map {/* display:none;*/ text-align:center}
+#old_map p { font-size:14px; color:#900; margin:15px; text-align:center}
+
+
+#container { }
+#wrapper { margin:0 auto !important; max-width:1270px !important} 
+
+#footer { margin:-40px auto 0 auto !important; max-width:1270px !important} 
+
+#wrapper, #footer { width:95%; margin-left:3%}
+
+
+text {
+    fill: #000000;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 13px;
+    stroke-width: 0;
+    text-decoration: none;
+}
+
+
+text.shadow { font-size:13px;
+    stroke:white;
+    stroke-width:2;
+    stroke-opacity:0.7;
+    fill:white;
+}
+
+text.shadow.marked { stroke-width:3; stroke:yellow; stroke-opacity:1;}
+text.station {cursor:pointer}
+
+line.zone {
+    stroke-dasharray: 5 5;
+    stroke-width: 1;
+    stroke: black;
+}
+
+text.zone {
+    font-family: Tahoma,Verdana,sans-serif;
+    text-decoration: none;
+    font-size: 8px;
+    stroke: grey;
+}
+
+text.plink_name {
+    font-size: 15px;
+    stroke-width: 1;
+    text-decoration: underline;
+    cursor: pointer;
+    fill-opacity: 1;
+    stroke-opacity: 0.5;
+    fill: #000;
+    stroke: #F00;
+}
+
+text:hover{ text-decoration: underline; fill: #9F0000; fill-opacity: 1;   }
+
+text.plink_name:hover {stroke-opacity: 1;}
+
+text.bilding-one, text.bilding, text.discolor { text-decoration: none; cursor: default; fill: #ccc; }
+
+line.bilding { stroke-dasharray: 10 15;}
+
+
+circle.station {cursor: pointer;}
+circle.active {cursor: pointer; stroke: #ffec00; fill: #9F0000; }
+circle.bilding, circle.bilding-one, line.bilding { stroke-opacity: 0.3; cursor: default;}
+
+image.may-be-click {cursor: pointer; opacity:0.8;}
+image.may-be-click:hover { opacity:1; }
+
+circle.station.marked {stroke-width:4; stroke: yellow; fill: #000}
+ 
